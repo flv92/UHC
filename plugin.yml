@@ -1,0 +1,14 @@
+name: UHC
+main: fr.flv92.UHC
+version: 1.0
+author: Flv92
+
+commands:
+  uhc-add:
+    description: Add players to UHC
+    usage: /uhc-add player1 player2 player3 ...\n /uhc-add @a
+    permission: uhc.add
+  uhc-list:
+    description: List UHC players
+    usage: /uhc-list
+    permision: uch.list
