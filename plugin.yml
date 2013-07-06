@@ -14,6 +14,6 @@ commands:
     description: Start the game
     usage: /uhc-start [mapSize]
   uhc-addSpawn:
-    description: Add a spawn.
+    description: Add a spawn
     usage: /uhc-addSpawn (and point an empty sign)
   
