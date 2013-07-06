@@ -4,11 +4,16 @@ version: 1.0
 author: Flv92
 
 commands:
-  uhc-add:
+  uhc-addPlayer:
     description: Add players to UHC
-    usage: /uhc-add player1 player2 player3 ...\n /uhc-add @a
-    permission: uhc.add
+    usage: /uhc-addPlayer [ @a | player1 player2 player3 ... ] 
   uhc-list:
     description: List UHC players
     usage: /uhc-list
-    permision: uch.list
+  uhc-start:
+    description: Start the game
+    usage: /uhc-start [mapSize]
+  uhc-addSpawn:
+    description: Add a spawn
+    usage: /uhc-addSpawn (and point an empty sign)
+  
